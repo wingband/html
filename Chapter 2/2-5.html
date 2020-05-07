@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="uft-18">
+        <title> 2-5 </title>
+
+    </head>
+
+    <body>
+        <h3> 5. HTML5 입력태그 </h3>
+        
+        <h4> 기본 입력태그 </h4>
+
+        <form action="http://naver.com">
+            <input type = "text" name ="id" placeholder="아이디 입력"/>
+            <input type = "password" name ="pass" placeholder="비밀번호 입력"/>
+            <input type = "submit" value ="로그인"/>
+            
+        </form>
+
+        <h5> 기타 입력태그 </h5>
+        <form action = "http://daum.net">
+            <h3> 취미를 선택하세요 </h3>
+            <label><input type="checkbox" name = "hb1" value="등산">등산</label>
+            <label><input type="checkbox" name = "hb2" value="축구">축구</label>
+            <label><input type="checkbox" name = "hb3" value="수영">수영</label>
+            <label><input type="checkbox" name = "hb4" value="헬스">헬스</label>
+            <label><input type="checkbox" name = "hb5" value="농구">농구</label>
+            <label><input type="checkbox" name = "hb6" value="테니스">테니스</label>
+            <label><input type="checkbox" name = "hb7" value="베드민턴">베드민턴</label>
+
+            <h3> 성별를 선택하세요 </h3>
+            <label><input type="radio" name = "gendor" value="남자">남자</label>
+            <label><input type="radio" name = "gendor" value="여자">여자</label>
+
+            <h3> 주소를 선택하세요 </h3>
+            <select name="addr">
+                <option>서울 </option>
+                <option>대전 </option>
+                <option>대구 </option>
+                <option>부산 </option>
+                <option>광주</option>
+            </select>                        
+            
+            <h3> 날짜를 고르세요 </h3>
+            <input type = "date" name = "date"/><br/><br/>
+
+            <input type="submit" value="전송하기"/>
+        </form>
+        
+        <h5> 폼 태그 </h5>
+        <h4> Post 전송 </h4>
+        <form action="http://google.com" method="POST">
+            <h4> 자기소개 </h4>
+            <textarea name="myself" cols="30" rows="10"></textarea><br/>
+            <input type="submit" value="전송하기"/>
+
+        </form>
+    </body>
+</html> 
