@@ -1,0 +1,9 @@
+http://chhak.kr/board/user/login.html
+http://chhak.kr/board/user/terms.html
+http://chhak.kr/board/user/register.html
+
+게시판
+http://chhak.kr/board/user/list.html
+wirte
+view
+modify
